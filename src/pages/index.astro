@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/header.astro";
+import Proyectos from "./proyectos.astro";
+import SobreMi from "./sobre_mi.astro";
+import Contacto from "./contacto.astro";
+
+---
+
+<Layout title="Ismael Simbana">
+  <Header />
+  <div class="flex items-center p-10">
+    <div class="bg-gray-50 sm:mx-10 w-full rounded-lg">
+      <SobreMi />
+    </div>
+    
+  </div>
+  <Proyectos />
+
+    <Contacto />
+
+</Layout>
